@@ -1,0 +1,15 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /springboot_day2
+
+
+# 声明注入的值
+name: "小陈"
+age: 23
+price: 23.23
+birthday: 2012/12/12 12:12:12
+sex: True
+qqs: 6099,7088,1024
+lists: xiaoming,xiaochen,xiaocun,xiaohong
+maps: "{'aa':'小陈','bb':'小张'}"

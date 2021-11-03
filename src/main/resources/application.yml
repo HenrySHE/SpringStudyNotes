@@ -13,3 +13,10 @@ sex: True
 qqs: 6099,7088,1024
 lists: xiaoming,xiaochen,xiaocun,xiaohong
 maps: "{'aa':'小陈','bb':'小张'}"
+
+# 声明对象
+# (随便声明个名字)
+orders:
+  id: 21
+  name: xiaoming
+  price: 23.23

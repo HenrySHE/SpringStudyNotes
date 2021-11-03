@@ -24,6 +24,13 @@
 <!--            <artifactId>spring-boot-starter-test</artifactId>-->
 <!--            <scope>test</scope>-->
 <!--        </dependency>-->
+<!--        根据ConfigurationProperties去构建源数据-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+<!--            代表这个依赖不会被专递到子项目里面-->
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>

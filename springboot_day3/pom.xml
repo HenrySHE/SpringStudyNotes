@@ -18,9 +18,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<!--        用于单元测试 集成了JUnit-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+<!--            这个意思是"区域", 只有在test的文件夹中使用, Main中不能使用, 打包也不会打包-->
             <scope>test</scope>
         </dependency>
 
